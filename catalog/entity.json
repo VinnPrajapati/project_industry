@@ -4,7 +4,7 @@
             "host": "localhost",
             "port": 3306,
             "username": "root",
-            "password": "meritto@123",
+            "password": "test@123",
             "database": "fastapi_jwt_auth"
         },
         "slave": {
