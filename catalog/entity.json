@@ -1,0 +1,36 @@
+{
+    "mysql": {
+        "master": {
+            "host": "localhost",
+            "port": 3306,
+            "username": "root",
+            "password": "meritto@123",
+            "database": "fastapi_jwt_auth"
+        },
+        "slave": {
+            "host": "localhost",
+            "port": 3307,
+            "username": "root",
+            "password": "",
+            "database": "fastapi_jwt_auth"
+        }
+    },
+    "redis": {
+        "host": "localhost",
+        "port": 6379,
+        "db": 0
+    },
+    "rabbitmq": {
+        "host": "localhost",
+        "port": 5672,
+        "username": "guest",
+        "password": "guest"
+    },
+    "mongodb": {
+        "database": "fastapi_jwt_auth_mongo",
+        "host": "npf.com",
+        "port": 27017,
+        "username": null,
+        "password": null
+    }
+}
